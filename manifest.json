@@ -1,0 +1,17 @@
+{
+  "name": "Currency converter app",
+  "short_name": "Currency",
+  "icons": [
+    {
+      "src": "currency-converter.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "id":"index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ff0000",
+  "theme_color": "#ff0000"
+}
