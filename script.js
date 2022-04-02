@@ -14,14 +14,14 @@ input.addEventListener('input', () => amount = input.value)
 
 dropList[0].addEventListener('change', (e) => {
     let flag_code = dropList[0].value.substring(0, 2)
-    let flag_src = `http://www.geognos.com/api/en/countries/flag/${flag_code}.png`
+    let flag_src = `https://countryflagsapi.com/png/${flag_code}`
     fromImg.src = flag_src
     from = e.target.value
     exchangeText.innerHTML = ''
 })
 dropList[1].addEventListener('change', (e) => {
     let flag_code = dropList[1].value.substring(0, 2)
-    let flag_src = `http://www.geognos.com/api/en/countries/flag/${flag_code}.png`
+    let flag_src = `https://countryflagsapi.com/png/${flag_code}`
     toImg.src = flag_src
     to = e.target.value
     exchangeText.innerHTML = ''
